@@ -1,5 +1,5 @@
 <script lang="ts">
-import Demo from '../../components/demo.vue'
+// import Demo from '../../components/demo.vue'
 export default {
   setup() {
     const visible = ref(false)
@@ -11,7 +11,7 @@ export default {
       visible,
     }
   },
-  components: { Demo },
+  // components: { Demo },
 }
 </script>
 

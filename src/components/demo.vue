@@ -10,13 +10,11 @@ export default defineComponent({
     watch(
       () => props.visible,
       (val) => {
-        console.log(2222222)
+        console.log('trigger')
       }
     )
 
-    return {
-      // comp,
-    }
+    return {}
   },
 })
 </script>
