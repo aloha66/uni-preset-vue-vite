@@ -7,10 +7,10 @@ import Components from 'unplugin-vue-components/vite'
 export default defineConfig({
   plugins: [
     uni(),
-    Components({
-      /* options */
-      dts: 'src/components.d.ts',
-    }),
+    // Components({
+    //   /* options */
+    //   dts: 'src/components.d.ts',
+    // }),
     AutoImport({
       /* options */
       imports: ['vue'],
