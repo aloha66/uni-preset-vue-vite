@@ -1,5 +1,5 @@
 <script lang="ts">
-import TestDemo from './demo2.vue'
+// import TestDemo from './demo2.vue'
 export default defineComponent({
   props: {
     visible: Boolean,
@@ -22,13 +22,13 @@ export default defineComponent({
       visible,
     }
   },
-  components: {
-    TestDemo,
-  },
+  // components: {
+  //   TestDemo,
+  // },
 })
 </script>
 <template>
   <view>
-    <TestDemo v-model:visible="visible" />
+    <demo2 v-model:visible="visible" />
   </view>
 </template>

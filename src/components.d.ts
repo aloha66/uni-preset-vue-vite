@@ -4,8 +4,10 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
-    Demo: typeof import('./components/demo.vue')['default']
-    Demo2: typeof import('./components/demo2.vue')['default']
+    AkarIconsCircleCheckFill: typeof import('~icons/akar-icons/circle-check-fill')['default']
+    Demo: typeof import('./components/demo/demo.vue')['default']
+    Demo2: typeof import('./components/demo2/demo2.vue')['default']
+    IconAccountBox: typeof import('~icons/ic/on-account-box')['default']
   }
 }
 

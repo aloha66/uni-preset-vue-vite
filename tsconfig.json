@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "allowJs": true,
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "types": ["@dcloudio/types", "unplugin-icons/types/vue"],
+    "paths": {
+      "@/*": ["./src/*"],
+      "@com/*": ["./src/components/*"],
+      "@hook/*": ["./src/hooks/*"],
+      "@hook": ["./src/hooks/index"],
+      "@api/*": ["./src/api/*"],
+      "@api": ["./src/api/index"],
+      "@bus/*": ["./src/business/*"],
+      "@bus": ["./src/business/index"],
+      "@type/*": ["./src/types/*"],
+      "@type": ["./src/types/index"],
+      "@util/*": ["./src/utils/*"],
+      "@util": ["./src/utils/index"]
+    },
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
+  },
+  "exclude": ["node_modules", "unpackage", "src/**/*.nvue"]
+}

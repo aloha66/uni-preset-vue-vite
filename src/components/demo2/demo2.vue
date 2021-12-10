@@ -1,6 +1,6 @@
 <script lang="ts">
 export default defineComponent({
-  name: 'testDemo',
+  // name: 'testDemo',
   props: {
     visible: Boolean,
   },
