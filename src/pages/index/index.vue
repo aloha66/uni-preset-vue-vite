@@ -1,5 +1,5 @@
 <script lang="ts">
-import Demo from '../../components/demo.vue'
+// import Demo from '../../components/demo.vue'
 export default {
   setup() {
     const visible = ref(false)
@@ -11,13 +11,13 @@ export default {
       visible,
     }
   },
-  components: { Demo },
+  // components: { Demo },
 }
 </script>
 
 <template>
   <view>
     <button @click="visible = true">sss</button>
-    <Demo v-model:visible="visible" />
+    <demo v-model:visible="visible" />
   </view>
 </template>
